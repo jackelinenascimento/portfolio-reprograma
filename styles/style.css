@@ -1,0 +1,48 @@
+a:hover {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.bg-roxo {
+    background-color: #7E459B;
+}
+
+.image-carousel {
+    object-fit: cover;
+    object-position: 0 80%;
+    height: 67vh;
+}
+
+.redes-sociais i {
+    color: #7E459B;
+}
+
+.hab-sobre {
+    background-color: #7E459B;
+    color: #ffffff;
+}
+
+.todas-habilidades i {
+    font-size: 30px;
+}
+
+.tamanho-card {
+    width: 18rem;
+
+}
+
+.imagem-cards {
+    object-fit: cover;
+    object-position: top;
+    height: 40vh;
+}
+
+
+footer a:visited {
+    color: #b070f0;
+
+}
+
+footer a:hover {
+    text-decoration: none;
+}

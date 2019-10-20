@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800&display=swap" rel="stylesheet">
+    <title>To Do List</title>
+</head>
+<body>
+    <div id="boxTarefas">
+        <div id="titulo">
+            <h1>Adicione uma nova tarefa</h1>
+        </div>
+        <div>
+            <form action="" id="formulario">
+                <input id="inputTarefa" type="text" placeholder="Tarefa">
+            </form>
+        </div>
+        <div id="Etiqueta">
+            <label for "selecionaTipo">Selecione a Etiqueta da Tarefa</label>
+            <select name= "Etiqueta" id="inputEtiqueta">
+                <option value=""></option>
+                <option value="Trabalho">Trabalho</option>
+                <option value="Lazer">Lazer</option>
+                <option value="Estudo">Estudo</option>
+            </select>
+        </div>
+        <div id="erro-p">               
+            <p id="erro"></p>
+        </div>
+        <div>
+            <button id="btnAdd">Add</button>
+        </div>
+        <div id="tarefasAdicionadas">
+        </div>
+        <div id="btnConcluirLimpar" class="btnConcluirLimparOff">
+            <button id="btnConcluir">Concluir tudo</button>
+            <button id="btnLimpar">Excluir todas</button>
+            <button id="btnRemoverConcluidas">Remover concluídas</button>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
