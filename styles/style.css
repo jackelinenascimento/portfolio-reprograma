@@ -46,3 +46,7 @@ footer a:visited {
 footer a:hover {
     text-decoration: none;
 }
+
+.padding {
+    padding: 10px;;
+}
